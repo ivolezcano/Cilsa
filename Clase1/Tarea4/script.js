@@ -5,4 +5,3 @@ document.getElementById('boton-original').addEventListener('click', function(){
 document.getElementById('boton-alto-contraste').addEventListener('click', function(){
     document.body.classList.add('alto-contraste')
 })
-

@@ -13,11 +13,11 @@
             <form action="" class="formulario">
                 <div class="form-item">
                     <label for="nombre">Nombre: </label>
-                    <input type="text" name="nombre" id="nombre" required>
+                    <input type="text" name="nombre" id="nombre" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+">
                 </div>
                 <div class="form-item">
                     <label for="apellido">Apellido: </label>
-                    <input type="text" name="apellido" id="apellido" required>
+                    <input type="text" name="apellido" id="apellido" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+">
                 </div>
                 <div class="form-item">
                     <label for="email">Email: </label>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="form-item">
                     <label for="fecha-nacimiento">Fecha de Nacimiento: </label>
-                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" max="2024-08-14">
                 </div>
                 <div class="form-item">
                     <label for="pais-residencia">País de Residencia: </label>
